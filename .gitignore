@@ -1,0 +1,13 @@
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+
+# 실행 중 생성되는 데이터/설정 파일
+*.json.tmp
+축의금_*.json
+settings.json
+!src-tauri/**/*.json
+
+.DS_Store
+Thumbs.db
